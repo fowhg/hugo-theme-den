@@ -2,7 +2,7 @@
 # ---- General Settings --------------- #
 # ------------------------------------- #
 baseURL = "https://fowhg.github.io"
-title = "Den"
+title = "Grace"
 theme = "hugo-theme-den"
 #enableRobotsTXT = true       # generate robots.txt
 enableEmoji = true           # use emoji support
@@ -20,6 +20,9 @@ rssLimit = 20                # limit number of entries in RSS feeds
 paginate = 20
 paginatePath = "page"
 
+ignoreErrors = ["error-remote-getjson"]
+#please remove the error.
+
 # Syntax Hightlight
 PygmentsCodeFences = true
 PygmentsUseClasses = true    # required for shhighlight shortcode
@@ -29,7 +32,7 @@ disqusShortname = ""         # disqus_shortname
 googleAnalytics = ""         # UA-XXXXXXXX-X
 
 # language support # en / zh-tw / other... translations present in i18n/
-defaultContentLanguage = "en"           # Default language to use
+defaultContentLanguage = "zh-tw"           # Default language to use
 defaultContentLanguageInSubdir = true
 
 # Links format
