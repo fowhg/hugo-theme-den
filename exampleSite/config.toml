@@ -2,7 +2,7 @@
 # ---- General Settings --------------- #
 # ------------------------------------- #
 baseURL = "https://fowhg.github.io"
-title = "Grace"
+title = "Peace and Love"
 theme = "hugo-theme-den"
 #enableRobotsTXT = true       # generate robots.txt
 enableEmoji = true           # use emoji support
@@ -32,7 +32,7 @@ disqusShortname = ""         # disqus_shortname
 googleAnalytics = ""         # UA-XXXXXXXX-X
 
 # language support # en / zh-tw / other... translations present in i18n/
-defaultContentLanguage = "zh-tw"           # Default language to use
+defaultContentLanguage = "zh-cn"           # Default language to use
 defaultContentLanguageInSubdir = true
 
 # Links format
@@ -43,7 +43,7 @@ defaultContentLanguageInSubdir = true
   pages = "/:slug/"
 
 [author]                     # required
-  name = "Jane Doe"
+  name = "sara and nope"
 
 [sitemap]                    # required
   changefreq = "weekly"
@@ -55,13 +55,13 @@ defaultContentLanguageInSubdir = true
 # ------------------------------------- #
 
 [params]
-  since = "2017"             # Site creation time
+  since = "2023"             # Site creation time
   rssFullContent = true      # set true to use full content instead of summary
 
   # site info (optional)
   keywords = ["Hugo", "theme","den"]
   description = "A simple theme for Hugo"
-  logoTitle = "Den" # shown on top-left, default: title
+  logoTitle = "feel" # shown on top-left, default: title
   siteLogoImage = "images/globe.svg"     # shown besides logoTitle
   # headerTitle = "Den"                   # default: title
   headerImage = "images/background.jpg"
